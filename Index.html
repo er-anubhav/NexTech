@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTech - College Coding Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tech-blue': '#00f2fe',
+                        'tech-purple': '#4facfe',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-black text-white font-sans">
+    <header class="bg-gray-900 p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-tech-blue to-tech-purple">NexTech</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-tech-blue transition-colors">Home</a></li>
+                <li><a href="#" class="hover:text-tech-blue transition-colors">Events</a></li>
+                <li><a href="#" class="hover:text-tech-blue transition-colors">Projects</a></li>
+                <li><a href="#" class="hover:text-tech-blue transition-colors">Resources</a></li>
+                <li><a href="#" class="hover:text-tech-blue transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto mt-8">
+        <section class="text-center">
+            <h1 class="text-5xl font-bold mb-4">Welcome to NexTech</h1>
+            <p class="text-xl mb-8">Empowering the next generation of tech innovators</p>
+            <a href="#" class="bg-gradient-to-r from-tech-blue to-tech-purple text-white font-bold py-2 px-4 rounded-full hover:opacity-80 transition-opacity">Join Our Community</a>
+        </section>
+
+        <section class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Upcoming Events</h2>
+                <ul class="space-y-2">
+                    <li>Hackathon - May 15th</li>
+                    <li>Tech Talk - June 1st</li>
+                    <li>Code Workshop - June 10th</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Featured Projects</h2>
+                <ul class="space-y-2">
+                    <li>AI Chatbot</li>
+                    <li>Campus Navigation App</li>
+                    <li>Study Group Finder</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Learning Resources</h2>
+                <ul class="space-y-2">
+                    <li>Java Tutorials</li>
+                    <li>Web Development Guides</li>
+                    <li>Machine Learning Courses</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 mt-16 py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 NexTech. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
